@@ -1,3 +1,6 @@
+#### 3.90.1
+* SV Fork versioning
+
 #### 3.2.1
 * Inlines more functions to keep generics working
 
