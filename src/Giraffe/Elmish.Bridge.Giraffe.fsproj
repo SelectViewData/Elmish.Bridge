@@ -14,8 +14,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="paket.template" />
     <Compile Include="Library.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
   <ItemGroup>
     <ProjectReference Include="..\Server\Elmish.Bridge.Server.fsproj" />

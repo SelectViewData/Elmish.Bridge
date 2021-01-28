@@ -1,3 +1,6 @@
+#### 3.90.2
+* updated to net5.0, added nuget for Bridge.Giraffe
+
 #### 3.90.1
 * SV Fork versioning
 

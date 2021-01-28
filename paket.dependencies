@@ -21,6 +21,7 @@ group Fabulous
 group DotnetClient
   storage: none
   source https://api.nuget.org/v3/index.json
+  framework: auto-detect
 
   nuget Elmish
   nuget Fable.Remoting.Json
@@ -29,6 +30,7 @@ group DotnetClient
 group Server
   storage: none
   source https://api.nuget.org/v3/index.json
+  framework: auto-detect
 
   nuget Fable.Remoting.Json
   nuget Elmish
@@ -42,6 +44,7 @@ group Suave
 group Giraffe
   storage: none
   source https://api.nuget.org/v3/index.json
+  framework: auto-detect
 
   nuget Giraffe
   nuget Microsoft.AspNetCore.WebSockets

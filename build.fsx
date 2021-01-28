@@ -83,8 +83,7 @@ Target.create "CleanDocs" (fun _ ->
 // Build library & test project
 
 Target.create "Build" (fun _ ->
-    DotNet.exec id "build" "src\DotnetClient\Elmish.Bridge.DotnetClient.fsproj -c Release" |> ignore
-    DotNet.exec id "build" "src\Giraffe\Elmish.Bridge.Giraffe.fsproj -c Release" |> ignore
+    DotNet.exec id "build" ".\Elmish.Bridge.sln -c Release" |> ignore
 )
 
 let webApiInputStream = StreamRef.Empty
