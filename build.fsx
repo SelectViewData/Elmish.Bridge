@@ -84,6 +84,7 @@ Target.create "CleanDocs" (fun _ ->
 
 Target.create "Build" (fun _ ->
     DotNet.exec id "build" "src\DotnetClient\Elmish.Bridge.DotnetClient.fsproj -c Release" |> ignore
+    DotNet.exec id "build" "src\Giraffe\Elmish.Bridge.Giraffe.fsproj -c Release" |> ignore
 )
 
 let webApiInputStream = StreamRef.Empty
