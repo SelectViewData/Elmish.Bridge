@@ -1,4 +1,7 @@
 #### 3.90.3
+* Fixed Elmish.Bridge.Server dependency in nuget package
+
+#### 3.90.3
 * Giraffe 5.0 update
 
 #### 3.90.2

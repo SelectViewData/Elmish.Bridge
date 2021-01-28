@@ -27,3 +27,4 @@ files
 dependencies
     Giraffe >= LOCKEDVERSION-Giraffe
     Microsoft.AspNetCore.WebSockets ~> LOCKEDVERSION-Giraffe
+    Elmish.Bridge.Server
