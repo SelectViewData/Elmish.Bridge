@@ -1,4 +1,7 @@
-#### 3.90.3
+#### 3.90.5
+* Switch to FSharp.Control.Tasks
+
+#### 3.90.4
 * Fixed Elmish.Bridge.Server dependency in nuget package
 
 #### 3.90.3
