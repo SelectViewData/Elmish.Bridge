@@ -46,6 +46,6 @@ group Giraffe
   source https://api.nuget.org/v3/index.json
   framework: auto-detect
 
-  nuget Giraffe
+  nuget Giraffe >= 5.0.0-rc-6
   nuget Microsoft.AspNetCore.WebSockets
 

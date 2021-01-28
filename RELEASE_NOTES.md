@@ -1,3 +1,6 @@
+#### 3.90.3
+* Giraffe 5.0 update
+
 #### 3.90.2
 * updated to net5.0, added nuget for Bridge.Giraffe
 
