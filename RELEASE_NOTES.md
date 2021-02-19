@@ -1,3 +1,6 @@
+#### 3.90.6
+* Fixed Elmish.Bridge.DotnetClient
+
 #### 3.90.5
 * Switch to FSharp.Control.Tasks
 
